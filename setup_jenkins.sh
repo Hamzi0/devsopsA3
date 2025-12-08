@@ -50,6 +50,9 @@ sudo systemctl enable jenkins
 sudo systemctl start docker
 sudo systemctl enable docker
 
+
+sudo yum install git -y
+sudo systemctl restart jenkins
 # Wait for Jenkins to fully start
 echo "Waiting 30 seconds for Jenkins to start..."
 sleep 30
